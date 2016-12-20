@@ -3,6 +3,10 @@ var context = document.getElementById('puzzle').getContext('2d');
 var width;
 var height;
 
+// document.getElementById("original").onclick = function() {
+// 	document.getElementById("original")
+// }
+
 document.getElementById('uploadedFile').onchange = function (evt) {
     var tgt = evt.target || window.event.srcElement,
         files = tgt.files;

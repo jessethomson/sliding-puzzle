@@ -1,7 +1,12 @@
 #original {
 	float:right;
+	opacity: 0
 }
 
+#original:hover {
+	cursor: pointer;
+	opacity: 1;
+}
 #main {
 	float:left;
 }
